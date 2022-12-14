@@ -1,0 +1,168 @@
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+    ;
+}
+
+.container-contact {
+    margin: 7rem 0 7rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card-contact {
+        max-width: 60%;
+        border: 1px solid #E6E6E6;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        border-radius: 12px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 48px;
+
+
+        .card-header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 88px;
+
+            .text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #0A0A0A;
+
+                p:first-child {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 120%;
+                    color: #1D1D1F;
+                }
+            }
+
+            .btn-ombuds {
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 12px;
+                border: 1px solid #535353;
+                border-radius: 8px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                color: #535353;
+            }
+        }
+
+        .card-forms {
+            display: flex;
+            gap: 16px 0;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .text-input {
+                width: 49%;
+
+                input,
+                select {
+                    width: 100%;
+                    padding-left: 4px;
+                    height: 40px;
+                    border: 1px solid #B5B5B5;
+                    border-radius: 4px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    display: flex;
+                    align-items: center;
+                    color: #848484;
+                }
+
+                input,
+                select:focus {
+                    outline: none;
+                }
+
+                .required {
+                    position: absolute;
+                    background: #fff;
+                    font-size: 12px;
+                    margin: -6px 0 0 10px;
+                    width: 15px;
+                    text-align: center;
+                    color: red;
+                }
+            }
+
+            .text-textarea {
+                width: 100%;
+
+                textarea {
+                    width: 100%;
+                    padding-left: 4px;
+                    min-height: 252px;
+                    border: 1px solid #B5B5B5;
+                    border-radius: 4px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    display: flex;
+                    align-items: center;
+                    color: #848484;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+        }
+
+        .btn-submit {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            min-width: 110px;
+            padding: 12px 16px;
+            background: #F6BE00;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #00162A;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-input {
+        width: 100% !important;
+    }
+
+    .container-contact .card-contact .card-header {
+        flex-direction: column;
+        gap: 38px;
+
+        .btn-ombuds {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container-contact .card-contact {
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+        padding: 10px;
+    }
+}

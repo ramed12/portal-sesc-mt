@@ -1,0 +1,72 @@
+@import "../../App.scss";
+
+.card__units {
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 11px 12px -5px rgba(0, 0, 0, 0.1);
+
+    .card-img {
+      overflow: hidden;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+
+      .card-img-top {
+        transition: transform 0.7s ease;
+      }
+    }
+
+    .card-body {
+      background-color: $color-light-4;
+
+      .card-title {
+        font-family: "OpenSans-Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $color-dark-1;
+      }
+
+      .card-text {
+        font-family: "OpenSans-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $color-dark-1;
+
+        svg {
+          margin-right: 0.5rem;
+          fill: $color-greyscale-7;
+        }
+      }
+
+      span {
+        font-family: "OpenSans-Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $color-primary-2;
+      }
+    }
+  }
+
+  &:hover {
+    .card {
+      outline: 1px solid $color-primary-1;
+      box-shadow: 4px 11px 12px -5px rgba(0, 0, 0, 0.1);
+
+      .card-img-top {
+        transform: scale(1.1);
+      }
+
+      .card-body {
+        span {
+          color: $color-primary-0;
+        }
+      }
+    }
+  }
+}

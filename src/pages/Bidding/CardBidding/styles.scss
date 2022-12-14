@@ -1,0 +1,131 @@
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.textGroup {
+    display: flex;
+    align-items: center;
+
+    .label {
+        font-weight: 700;
+        font-size: 16px;
+        color: #0A0A0A
+    }
+
+    .value {
+        font-weight: 400;
+        font-size: 16px;
+        color: #0A0A0A
+    }
+}
+
+.card-bidding {
+    margin-top: 20px;
+    padding: 56px 82px;
+    gap: 32px;
+    background: #FBFDFF;
+    border: 3px solid #B3C9DD;
+    box-shadow: 3px 5px 10px rgba(10, 10, 10, 0.1);
+    border-radius: 12px;
+
+    .number-bidding {
+        font-weight: 400;
+        font-size: 16px;
+        color: #9D9D9D;
+    }
+
+    .title-bidding {
+        max-width: 499px;
+        font-weight: 700;
+        font-size: 24px;
+        color: #0A0A0A;
+    }
+
+    .description-bidding {
+        max-width: 963px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #0A0A0A;
+    }
+
+    .more-detail {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #6C6C6C;
+        text-decoration: none;
+    }
+
+    .card-download {
+        display: block;
+
+
+        .tag-download {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            border: 1px solid #00162A;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 12px;
+            color: #00162A;
+        }
+
+        .button-all-download {
+            width: 207px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #004A8D;
+            box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            padding: 12px 16px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #F9FCFF;
+            margin-top: 30px;
+        }
+    }
+
+
+}
+
+.downloadLink {
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+
+    p {
+        margin: 0 0 0 5px;
+    }
+
+    &:hover {
+        font-weight: 700;
+        color: #003463;
+
+        path {
+            fill: #DE4E34;
+        }
+    }
+
+    &:active {
+        font-weight: 700;
+        color: #00162A;
+
+        path {
+            fill: #AB1B01;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card-bidding {
+        padding: 30px 15px;
+    }
+}

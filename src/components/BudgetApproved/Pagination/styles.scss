@@ -1,0 +1,36 @@
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #F9F9F9 !important;
+
+    ul {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+
+        li {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 13px;
+            color: #848484;
+        }
+
+        .active {
+            width: 20px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20px;
+            background: #004A8D;
+            color: #FFF;
+        }
+
+    }
+}

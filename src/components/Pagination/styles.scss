@@ -1,0 +1,16 @@
+@import "../../App.scss";
+
+.pagination {
+  .page-item {
+    .page-link {
+      color: $color-primary-0;
+    }
+  }
+
+  .page-item.active {
+    .page-link {
+      color: $color-light-0;
+      background-color: $color-primary-0;
+    }
+  }
+}

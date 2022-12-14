@@ -1,0 +1,41 @@
+@import "../../App.scss";
+
+.card__unitsdetails {
+  .card {
+    height: 22.5rem;
+    border: none;
+    border-radius: 8px;
+  }
+
+  &__body {
+    padding: 1rem 1rem 1.5rem 1rem !important;
+
+    &__activity {
+      width: fit-content;
+      padding: 0.5rem;
+      border-radius: 40px;
+      font-family: "OpenSans-Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.75rem;
+      line-height: 150%;
+      color: $color-primary-8;
+      background-color: $color-secondary-2;
+    }
+
+    &__daytime {
+      width: fit-content;
+      font-family: "OpenSans-Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.75rem;
+      line-height: 150%;
+      color: $color-light-0;
+
+      svg {
+        display: inline-block;
+        margin: 0 4px 4px 0;
+      }
+    }
+  }
+}

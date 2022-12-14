@@ -1,0 +1,108 @@
+{
+    "page": 1,
+    "perPage": 5,
+    "countPage": 2,
+    "total": 8,
+    "items": [
+        [
+            {
+                "id": 1,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            },
+            {
+                "id": 2,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            },
+            {
+                "id": 3,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            },
+            {
+                "id": 4,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            },
+            {
+                "id": 5,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            }
+        ],
+        [
+            {
+                "id": 6,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            },
+            {
+                "id": 7,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            },
+            {
+                "id": 8,
+                "exercise": 2022,
+                "contract": "22/0032-PGE-H",
+                "object": "ORNECIMENTO DE EQUIPAMENTOS, MATERIAIS E ACESSÓRIOS ESPORTIVOS",
+                "favorite": "P. MOREIRA LIMA COMERCIO E SERVIÇOS EIRELI",
+                "CNPJ_CPF": "21.395.275/0001-41",
+                "modality": "PREGÃO",
+                "contractDate": "24/01/2023",
+                "expense": "MATERIAL DE CONSUMO",
+                "contractValue": "8.527.209,69"
+            }
+        ]
+    ]
+}

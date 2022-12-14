@@ -1,0 +1,150 @@
+﻿@import "../../../App.scss";
+
+.quickaccess {
+  margin: 3.75rem 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 4.75rem 0 25rem 0;
+  }
+
+  &__title {
+    font-family: "OpenSans-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 120%;
+    color: $color-dark-1;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+    }
+  }
+
+  &__left,
+  &__right {
+    padding: 2rem 1rem 1rem !important;
+    border-radius: 16px;
+    background-color: $color-greyscale-10;
+
+    @include media-breakpoint-up(md) {
+      padding: 2.25rem !important;
+    }
+
+    &__divider {
+      width: 2.875rem;
+      height: 0.75rem;
+      border-bottom: 1px solid $color-greyscale-3;
+
+      @include media-breakpoint-up(sm) {
+        width: 40px;
+        height: 0.875rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        width: 8.125rem;
+        height: 1rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 5rem;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 7.5rem;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        width: 10rem;
+      }
+    }
+
+    &__recacc {
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+      margin-bottom: 1rem;
+      font-family: "OpenSans-Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 120%;
+      color: $color-greyscale-3;
+
+      @include media-breakpoint-up(sm) {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+      }
+
+      svg {
+        display: inline-block;
+        width: 1.25rem;
+        height: 1.25rem;
+        margin: 0 0 0.25rem 0;
+
+        @include media-breakpoint-up(md) {
+          width: 1.625rem;
+          height: 1.625rem;
+        }
+      }
+    }
+
+    &__links {
+      svg {
+        display: inline-block;
+        width: 1.125rem;
+        height: 1.125rem;
+        margin: 0.125rem 0.75rem 0 0;
+        color: $color-greyscale-1;
+
+        @include media-breakpoint-up(md) {
+          width: 1.625rem;
+          height: 1.625rem;
+        }
+      }
+
+      p {
+        font-family: "OpenSans-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 120%;
+        color: $color-greyscale-1;
+
+        @include media-breakpoint-up(md) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.quickaccess__left .d-flex.flex-column:nth-child(2),
+.quickaccess__right .d-flex.flex-column:nth-child(2) {
+  margin-left: 0.5rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-left: 3.75rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-left: 2.5rem;
+  }
+}

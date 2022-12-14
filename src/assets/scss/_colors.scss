@@ -1,0 +1,168 @@
+/**
+ *
+ * Color Primary
+ *
+ */
+$color-primary-0: #004a8d;
+$color-primary-1: #1a5c98;
+$color-primary-2: #4d80af;
+$color-primary-3: #80a5c6;
+$color-primary-4: #b3c9dd;
+$color-primary-5: #003b71;
+$color-primary-6: #003463;
+$color-primary-7: #002547;
+$color-primary-8: #00162a;
+
+/**
+ *
+ * Color Secondary
+ *
+ */
+$color-secondary-0: #f6be00;
+$color-secondary-1: #f7c51a;
+$color-secondary-2: #f9d24d;
+$color-secondary-3: #fad866;
+$color-secondary-4: #fbe599;
+$color-secondary-5: #ddab00;
+$color-secondary-6: #ac8500;
+$color-secondary-7: #7b5f00;
+$color-secondary-8: #4a3900;
+
+/**
+ *
+ * Light Color
+ *
+ */
+$color-light-0: #f9fcff;
+$color-light-1: #f2f5f4;
+$color-light-2: #f2f2f2;
+$color-light-3: #fafcff;
+$color-light-4: #fbfdff;
+
+/**
+ *
+ * Dark Color
+ *
+ */
+$color-dark-0: #000000;
+$color-dark-1: #0a0a0a;
+$color-dark-2: #121212;
+$color-dark-3: #1d1d1f;
+$color-dark-4: #212121;
+
+/**
+ *
+ * Grey Scale
+ *
+ */
+$color-greyscale-0: #222222;
+$color-greyscale-1: #3b3b3b;
+$color-greyscale-2: #535353;
+$color-greyscale-3: #6c6c6c;
+$color-greyscale-4: #848484;
+$color-greyscale-5: #9d9d9d;
+$color-greyscale-6: #b5b5b5;
+$color-greyscale-7: #cecece;
+$color-greyscale-8: #e6e6e6;
+$color-greyscale-9: #f3f3f3;
+$color-greyscale-10: #f9f9f9;
+
+/**
+ *
+ * UI Colors - Section
+ *
+ */
+/* Lazer  */
+$color-section-laz-0: #ef8e02;
+$color-section-laz-1: #bf7202;
+$color-section-laz-2: #f2a535;
+/* Educação  */
+$color-section-edu-0: #0089d5;
+$color-section-edu-1: #006eaa;
+$color-section-edu-2: #33a1dd;
+/* Saúde  */
+$color-section-sau-0: #00a73a;
+$color-section-sau-1: #00862e;
+$color-section-sau-2: #33b961;
+/* Cultura  */
+$color-section-cul-0: #d62201;
+$color-section-cul-1: #ab1b01;
+$color-section-cul-2: #de4e34;
+/* Assistência  */
+$color-section-ass-0: #482683;
+$color-section-ass-1: #3a1e69;
+$color-section-ass-2: #6d519c;
+
+/**
+ *
+ * UI Colors - Overlay
+ *
+ */
+$overlay-0: rgba(1, 1, 1, 0.57);
+$overlay-1: rgba(10, 10, 10, 0.2);
+$overlay-2: rgba(34, 34, 34, 0.8);
+$overlay-3: linear-gradient(180deg, rgba(0, 22, 42, 0.2) 0%, #00162a 100%);
+$overlay-4: linear-gradient(180deg, rgba(29, 29, 27, 0.03) 0%, #1d1d1b 78.44%);
+$overlay-5: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0.560146) 47.07%, #222222 74.57%, #222222 79.84%);
+$overlay-6: linear-gradient(180deg, #00162A 0%, rgba(0, 22, 42, 0.368715) 78.03%, rgba(0, 22, 42, 0.14) 93.77%, rgba(0, 22, 42, 0) 101.43%);
+$overlay-7: linear-gradient(180deg, #00162A 0%, rgba(0, 22, 42, 0.58) 51%, rgba(0, 22, 42, 0.04) 96.33%, rgba(0, 22, 42, 0) 108.8%);
+$overlay-8: linear-gradient(180deg, #00162A 58%, rgba(0, 22, 42, 0.91) 86.52%);
+
+/* Lazer  */
+$overlay-section-laz: linear-gradient(
+  180deg,
+  rgba(29, 29, 27, 0.03) 0%,
+  #ef8e02 78.44%
+);
+/* Educação  */
+$overlay-section-edu: linear-gradient(
+  180deg,
+  rgba(29, 29, 27, 0.03) 0%,
+  #0089d5 78.44%
+);
+/* Saúde  */
+$overlay-section-sau: linear-gradient(
+  180deg,
+  rgba(29, 29, 27, 0.03) 0%,
+  #00a73a 78.44%
+);
+/* Cultura  */
+$overlay-section-cul: linear-gradient(
+  180deg,
+  rgba(29, 29, 27, 0.03) 0%,
+  #d62201 78.44%
+);
+/* Assistência  */
+$overlay-section-ass: linear-gradient(
+  180deg,
+  rgba(29, 29, 27, 0.03) 0%,
+  #482683 78.44%
+);
+
+/**
+ *
+ * UI Colors - Gradient
+ *
+ */
+$gradient-base-0: linear-gradient(317.92deg, #004a8d 2.08%, #80a5c6 195.55%);
+$gradient-base-1: linear-gradient(309.9deg, #f6be00 3.69%, #fad866 130.29%);
+$gradient-base-2: linear-gradient(309.9deg, #f9d24d 3.69%, #fbe599 128.97%);
+
+$gradient-headvideo-0: linear-gradient(
+  180deg,
+  rgba(34, 34, 34, 0) 0%,
+  rgba(34, 34, 34, 0.560146) 47.07%,
+  #222222 74.57%,
+  #222222 79.84%
+);
+
+/* Lazer  */
+$gradient-section-laz: linear-gradient(180deg, #ef8e02 0%, #f2a535 100%);
+/* Educação  */
+$gradient-section-edu: linear-gradient(180deg, #1a5c98 0%, #4d80af 100%);
+/* Saúde  */
+$gradient-section-sau: linear-gradient(180deg, #00862e 0%, #33b961 100%);
+/* Cultura  */
+$gradient-section-cul: linear-gradient(180deg, #d62201 0%, #de4e34 100%);
+/* Assistência  */
+$gradient-section-ass: linear-gradient(180deg, #3a1e69 0%, #6d519c 100%);

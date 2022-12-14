@@ -1,0 +1,118 @@
+﻿@import "../../../App.scss";
+
+.newshome {
+
+  &__title {
+    font-family: "OpenSans-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: $color-dark-1;
+
+    svg {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: 48px;
+    }
+  }
+
+  &__subtitle {
+    font-family: "OpenSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #848484;
+    margin-bottom: 68px;
+
+    @include media-breakpoint-up(md) {
+      font-size: 24px;
+    }
+  }
+}
+
+.card-big {
+  background-color: #00162A;
+}
+
+.card-news-text-big {
+font-family: 'OpenSans-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 19.8041px;
+line-height: 120%;
+align-items: center;
+color: #F9FCFF;
+}
+.card-poor {
+  background-color: #AB1B01;
+}
+.card-poor1 {
+  background-color: #482683;
+}
+
+.card-news-text-poor {
+font-family: 'OpenSans-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 15.6674px;
+line-height: 120%;
+color: #F9FCFF;
+}
+
+.news-button {
+  font-family: "OpenSans-Bold" !important;
+  background: transparent !important;
+
+}
+
+.news-text-right-blue {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.7995px;
+  line-height: 150%;
+  align-items: center;
+  color: #004A8D;
+}
+
+.news-text-right-gold {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.7995px;
+  line-height: 150%;
+  align-items: center;
+  color: #AC8500;
+}
+
+.news-text-right-green {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.7995px;
+  line-height: 150%;
+  align-items: center;
+  color: #00862E;
+}
+.img-news-poor {
+  height: 160px;
+}
+.card-img-top {
+  height: 176px !important;
+}
+.card-img-poor {
+  height: 140px !important;
+}
+
+
+@media (min-width: 767px) {
+  .col-md-12 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

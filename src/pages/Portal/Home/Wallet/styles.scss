@@ -1,0 +1,50 @@
+.container-wallet {
+    width: 100%;
+    height: 86px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    display: flex;
+
+    .card-title {
+        width: 50%;
+        height: 100%;
+        background: #0A0A0A;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        p {
+            color: #F9F9F9;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            margin: 0;
+            margin-left: 20px;
+        }
+    }
+
+    .card-balance {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        p {
+            color: #848484;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            margin: 0;
+            margin-right: 20px;
+        }
+
+        .blur {
+            filter: blur(6.5px);
+        }
+    }
+}

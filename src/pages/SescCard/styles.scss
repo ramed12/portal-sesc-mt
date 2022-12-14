@@ -1,0 +1,28 @@
+﻿@import "../../App.scss";
+
+
+.button_Card_Sesc {
+  span {
+    color: $color-primary-6;
+  }
+}
+
+// .sesc__card-img-right {
+//   padding: 0 0 0 180px;
+// }
+
+// .sesc__card-img-left {
+//   padding: 0 180px 0 0;
+// }
+
+// .card__sesc-text-body {
+//   margin-left: 200px;
+// }
+
+.sesc__card {
+
+  @include media-breakpoint-up(auto) {
+    width: 200%;
+    padding: 3rem;
+  }
+}

@@ -1,0 +1,206 @@
+@import "../../../App.scss";
+
+.unitdetails {
+  margin-top: 7.75rem;
+  margin-bottom: 1.5rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 12.5rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin: 11.5625rem 0 6.25rem 0;
+  }
+
+  &__title {
+    font-family: "OpenSans-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 120%;
+    color: $color-primary-8;
+  }
+
+  &__left {
+    &__image {
+      height: 23.75rem; // TODO: remove this
+      border-radius: 0;
+
+      @include media-breakpoint-up(md) {
+        height: 41.25rem;
+        border-radius: 12px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        height: 52.625rem;
+      }
+    }
+
+    &__button {
+      .btn {
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        font-family: "OpenSans-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $color-light-0;
+        background-color: $color-primary-0;
+
+        &:hover {
+          background-color: $color-primary-6;
+        }
+
+        svg {
+          display: inline-block;
+          width: 1.25rem;
+          height: 1.25rem;
+          margin: 0 8px 1px 0;
+        }
+      }
+    }
+  }
+
+  &__right {
+    &__infos {
+      p {
+        font-family: "OpenSans-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 150%;
+        color: $color-greyscale-3;
+
+        svg {
+          display: inline-block;
+          width: 1.25rem;
+          height: 1.25rem;
+          margin: 0 8px 1px 0;
+        }
+      }
+    }
+
+    &__service {
+      margin-bottom: 52px;
+
+      p {
+        font-family: "OpenSans-Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.875rem;
+        line-height: 150%;
+        color: $color-greyscale-3;
+
+        svg {
+          display: inline-block;
+          width: 1.25rem;
+          height: 1.25rem;
+          margin: 0 8px 1px 0;
+        }
+      }
+
+      &__cards {
+        padding: 1rem;
+        border: 1px solid $color-dark-3 !important;
+        border-radius: 12px !important;
+        background-color: $color-light-0 !important;
+
+        &:hover {
+          background-color: $color-primary-4 !important;
+        }
+
+        @include media-breakpoint-up(md) {
+          padding: 0.75rem 1rem;
+        }
+
+        &:nth-child(1) {
+          width: 100%;
+
+          @include media-breakpoint-up(md) {
+            width: 40%;
+          }
+        }
+
+        &:nth-child(2) {
+          width: 100%;
+
+          @include media-breakpoint-up(md) {
+            width: 60%;
+          }
+        }
+
+        &--large {
+          width: 100% !important;
+        }
+
+        .card-body {
+          padding: 0;
+        }
+
+        .card-title {
+          font-family: "OpenSans-Bold";
+          font-weight: 700;
+          font-style: normal;
+          font-size: 0.75rem;
+          line-height: 150%;
+          color: $color-dark-3 !important;
+        }
+
+        .card-text {
+          font-family: "OpenSans-Regular";
+          font-weight: 400;
+          font-style: normal;
+          font-size: 0.75rem;
+          line-height: 150%;
+          color: $color-dark-3 !important;
+        }
+      }
+    }
+  }
+}
+
+.unitcards {
+  margin-bottom: 4.5rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 4.5rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 4.5rem;
+  }
+
+  &__title {
+    font-family: "OpenSans-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 120%;
+    color: $color-primary-8;
+  }
+}
+
+.unitmore {
+  &__button {
+    .btn {
+      margin-bottom: 3.75rem;
+      border: 3px solid $color-primary-0;
+      border-radius: 6px;
+      font-family: "OpenSans-Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 120%;
+      color: $color-primary-0;
+      background-color: $color-light-4;
+
+      &:hover {
+        border: 3px solid $color-primary-0;
+        color: $color-light-4;
+        background-color: $color-primary-0;
+      }
+    }
+  }
+}

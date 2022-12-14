@@ -1,0 +1,67 @@
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.table {
+    width: 100%;
+    margin: 0 !important;
+
+    .child-page {
+        padding: 20px 0 20px 46px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 150%;
+        color: #6C6C6C;
+
+        p {
+            margin: 0px;
+        }
+    }
+
+    .theader {
+        display: flex;
+        background: #CECECE;
+
+        div {
+            width: 11.11%;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #222222;
+            padding: 10px 8px 10px 8px;
+            justify-content: center;
+        }
+    }
+
+    .theader {
+        display: flex;
+    }
+
+    .tcard {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .table .theader,
+    .table .tbody {
+        display: none;
+    }
+
+    .table {
+        .child-page {
+            padding: 0px;
+            text-align: start;
+        }
+
+        .tcard {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.card-menu {
+    margin-top: 2rem;
+    max-width: 90%;
+
+    .card-dropdown {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: #F9FCFF;
+        align-items: center;
+        padding: 12px;
+        border: 1px solid #004A8D;
+        border-radius: 8px;
+
+        p {
+            font-weight: 600 !important;
+            font-size: 16px !important;
+            line-height: 150% !important;
+            color: #004A8D !important;
+            margin: 0px !important;
+        }
+
+        &:hover {
+            background: #B3C9DD;
+
+            p {
+                color: #004A8D !important;
+            }
+        }
+
+        &:active {
+            background: #004A8D;
+
+            p {
+                color: #ffffff !important;
+            }
+        }
+
+        &.active {
+            background: #004A8D;
+
+            p {
+                color: #ffffff !important;
+            }
+        }
+    }
+
+    .active {
+        background: #004A8D;
+
+        p {
+            color: #ffffff !important;
+        }
+
+    }
+
+    .info-dropdown {
+        display: none;
+        padding: 10px 10px 0 0;
+
+        ul {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            color: #9D9D9D;
+
+            li {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .dropdown-active {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-menu {
+        max-width: 100%;
+    }
+}

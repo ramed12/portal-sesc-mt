@@ -1,0 +1,40 @@
+﻿
+#slider-wrapper {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.slider__title {
+  font-family: "OpenSans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: justify;
+
+}
+
+.slider__subtitle {
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  align-items: center;
+  color: #ffffff;
+}
+
+.button__slider {
+  width: 115px;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #f9fcff;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.button__slider:hover {
+  cursor: pointer;
+  background: #d9dee23b;
+}
+

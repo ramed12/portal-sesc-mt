@@ -1,0 +1,59 @@
+﻿@import "../../../App.scss";
+
+.advisor__title {
+  font-family: "OpenSans-SemiBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #00162A;
+}
+
+.subtitle__login {
+  font-family: "OpenSans-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  color: #004A8D;
+  margin-right: 100px;
+}
+
+.box__input{
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #3B3B3B;
+}
+
+.link__input{
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #6C6C6C;
+}
+
+.button__advisor {
+  width: 222px;
+  height: 38px;
+  background: linear-gradient(317.92deg, #004A8D 2.08%, #80A5C6 195.55%);
+  border-radius: 8px;
+
+  span {
+    font-family: "OpenSans-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F9F9F9;
+  }
+}
+.advisor__input {
+  border: 1px solid #004A8D!important;
+  border-radius: 8px !important;
+}
+

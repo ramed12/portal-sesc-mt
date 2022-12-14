@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+
+.container-data {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card-welcome {
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+        .name-account {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-weight: 700;
+                font-size: 32px;
+                color: #000000;
+                margin: 0;
+            }
+
+            a {
+                transition: 100ms all;
+                padding: 20px;
+
+                svg {
+                    font-size: 22px;
+                    margin-left: 10px;
+                    color: #535353;
+                }
+            }
+
+        }
+
+        .subtitle {
+            font-weight: 400;
+            font-size: 20px;
+            color: #000000;
+            margin: 0;
+        }
+    }
+
+    .card-data {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .div_first {
+            display: flex;
+            justify-content: center;
+        }
+
+        .div_last {
+            .card-wallet {
+                margin-left: 30px;
+                max-width: 786px;
+            }
+
+            .card-functionality {
+                margin-left: 30px;
+                max-width: 786px;
+
+                .functionality {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-data {
+        display: block;
+
+        .card-welcome {
+            padding: 10px;
+
+            .name-account {
+                justify-content: space-between;
+            }
+
+            .subtitle {
+                text-align: center;
+            }
+        }
+
+        .card-data {
+            flex: 1;
+            display: block;
+            align-items: center;
+            justify-content: center;
+
+            .div_last {
+                padding: 10px;
+
+                .card-functionality {
+                    margin-left: 0px;
+                }
+
+                .card-wallet {
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+
+}

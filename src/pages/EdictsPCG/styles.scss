@@ -1,0 +1,50 @@
+.filter {
+    display: flex;
+    background: #004A8D;
+    gap: 10px;
+    padding: 25px 0 25px 46px;
+
+    .text-input {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        background: #F9FCFF;
+        border: 1px solid #F9F9F9;
+        border-radius: 8px;
+
+        input {
+            width: 96%;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    a {
+        border: 1px solid #FFFFFF;
+        border-radius: 24px;
+        padding: 9px 20px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFF !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .filter {
+        display: flex;
+        padding: 25px 10px 25px 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .text-input {
+            height: 40px;
+        }
+    }
+}

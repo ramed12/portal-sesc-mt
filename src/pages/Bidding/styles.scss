@@ -1,0 +1,15 @@
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+    ;
+}
+
+.container-bidding {
+    padding: 0px 70px 20px 70px;
+}
+
+@media only screen and (max-width: 770px) {
+    .container-bidding {
+        padding: 45px 15px 25px 15px;
+    }
+}

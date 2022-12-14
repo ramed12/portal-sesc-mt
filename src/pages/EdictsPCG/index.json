@@ -1,0 +1,313 @@
+{
+    "page": 1,
+    "perPage": 10,
+    "countPage": 4,
+    "total": 33,
+    "items": [
+        [
+            {
+                "id": 1,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 2,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 3,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 4,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 5,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 6,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 7,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 8,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 9,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 10,
+                "unit": "SESC ALTA FLORESTA 1",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            }
+        ],
+        [
+              {
+                "id": 11,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 12,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 13,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 14,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 15,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 16,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 17,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 18,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 19,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 20,
+                "unit": "SESC ALTA FLORESTA 2",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            }
+        ],
+        [
+              {
+                "id": 21,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 22,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 23,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 24,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 25,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 26,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 27,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 28,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 29,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 30,
+                "unit": "SESC ALTA FLORESTA 3",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            }
+        ],
+        [
+              {
+                "id": 31,
+                "unit": "SESC ALTA FLORESTA 4",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 32,
+                "unit": "SESC ALTA FLORESTA 4",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            },
+            {
+                "id": 33,
+                "unit": "SESC ALTA FLORESTA 4",
+                "project": "Acompanhamento e Complementação Educaciona",
+                "class": "Habilidades de Estudo - Curso",
+                "registrations": "01/02/2021 até 19/11/2021",
+                "complement": "1º Ciclo Matutino (6 a 9 anos)",
+                "hours": "Segunda,Terça,Quarta,Quinta,Sexta(07:00 as 10:00)"
+            }
+        ]
+    ]
+}
